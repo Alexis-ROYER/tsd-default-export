@@ -1,0 +1,11 @@
+'use strict';
+
+${exportDefaultStatement1} class {
+    constructor(who) {
+        this.who = who;
+    }
+    sayHello() {
+        console.log(`Hello ${this.who}!`);
+    }
+}
+${exportDefaultStatement2}

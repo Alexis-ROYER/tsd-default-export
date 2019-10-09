@@ -1,0 +1,27 @@
+{
+  "name": "tsd-default-export",
+  "version": "1.0.0",
+  "description": "Tests on the various ways to define default exports, and the corresponding typescript declarations.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "tsc --target es5 --outDir dist src/all-test-cases.ts && node dist/all-test-cases.js",
+    "clean": "tsc --outDir dist src/clean.ts && node dist/clean.js"
+  },
+  "keywords": [
+    "typescript",
+    "export",
+    "default"
+  ],
+  "author": "Alexis Royer <alexis.royer@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.7.11",
+    "csv-writer": "^1.5.0",
+    "esm": "^3.2.25",
+    "fs-extra": "^8.1.0",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "@types/fs-extra": "^8.0.0"
+  }
+}

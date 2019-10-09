@@ -1,0 +1,7 @@
+declare module "my-module" {
+    class _ {
+        public constructor(who: string);
+        public sayHello(): void;
+    }
+    ${exportDefaultStatement} _;
+}

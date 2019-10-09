@@ -1,0 +1,4 @@
+/// <reference path="./typings.d.ts" />
+${importDefaultStatement};
+const a = new MyClass("A");
+a.sayHello();
