@@ -15,9 +15,9 @@ It particularly aims to clarify which scenarii actually work, depending on:
 
 # Recommendations #
 
-As of (October 2019):
+As of (March 2020):
 - `typescript@3.6.3`
-- `node@10.16.3`
+- `node@10.16.3` to `node@12.16.1`
 - `esm@3.2.25`
 
 Here is a set of recommendations I conclude with:
