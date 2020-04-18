@@ -138,6 +138,10 @@ to:
 As explained above, the latest versions of `node` now provide native support for ESM (ECMAScript Modules, see: [esm_enabling](https://nodejs.org/api/esm.html#esm_enabling)),
 which explains the modification of the error message.
 
+## April 2020: Upgrade to `typescript@3.8.3`
+
+Results unchanged.
+
 # Conclusion #
 
 Generating ES6 output, works fine in general.
